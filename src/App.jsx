@@ -1,4 +1,5 @@
 import './App.css'
+import BuyerBonus from './Buyerbonus '
 import FeaturedProperties from './Featuredproperties'
 import Header from './Header'
 import HeroSection from './HeroSection'
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <FeaturedProperties />
       <WhyChooseUs />
+      <BuyerBonus />
     </>
   )
 }
