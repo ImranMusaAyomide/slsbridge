@@ -1,6 +1,7 @@
 import './App.css'
 import BuyerBonus from './Buyerbonus '
 import FeaturedProperties from './Featuredproperties'
+import Footer from './Footer'
 import Header from './Header'
 import HeroSection from './HeroSection'
 import WhyChooseUs from './Whychooseus '
@@ -14,6 +15,7 @@ function App() {
       <FeaturedProperties />
       <WhyChooseUs />
       <BuyerBonus />
+      <Footer />
     </>
   )
 }
