@@ -31,10 +31,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-brand">
-              <h3 className="footer-brand-name">SLS Housing</h3>
-              <div className="footer-logo-icon">
-                <i className="fa-solid fa-house"></i>
-              </div>
+  
             </div>
           </div>
 

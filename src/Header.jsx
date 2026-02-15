@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from './assets/logo-sls.svg';
 import './Header.css';
 
-const Header = () => {
+const Header = ({ onOpenSignup }) => {
   return (
     <header className="header">
       <div className="header-container">
@@ -20,7 +20,7 @@ const Header = () => {
           <a href="#blog" className="nav-link">Blog</a>
         </nav>
 
-        <button className="cta-button">
+        <button className="cta-button" onClick={onOpenSignup}>
           <i className="fa-solid fa-phone"></i>
           Book A Call
         </button>
